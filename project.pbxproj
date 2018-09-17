@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D80B66351F3A9E1C00DA824E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B66341F3A9E1C00DA824E /* AppDelegate.swift */; };
+		D80B66371F3A9E1C00DA824E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B66361F3A9E1C00DA824E /* ViewController.swift */; };
+		D80B663A1F3A9E1C00DA824E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80B66381F3A9E1C00DA824E /* Main.storyboard */; };
+		D80B663D1F3A9E1C00DA824E /* Shape_Warz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D80B663B1F3A9E1C00DA824E /* Shape_Warz.xcdatamodeld */; };
+		D80B663F1F3A9E1C00DA824E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80B663E1F3A9E1C00DA824E /* Assets.xcassets */; };
+		D80B66421F3A9E1C00DA824E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80B66401F3A9E1C00DA824E /* LaunchScreen.storyboard */; };
+		D80B664D1F3A9E1D00DA824E /* Shape_WarzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B664C1F3A9E1D00DA824E /* Shape_WarzTests.swift */; };
+		D80B66581F3A9E1D00DA824E /* Shape_WarzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B66571F3A9E1D00DA824E /* Shape_WarzUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D80B66491F3A9E1D00DA824E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80B66291F3A9E1C00DA824E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80B66301F3A9E1C00DA824E;
+			remoteInfo = "Shape Warz";
+		};
+		D80B66541F3A9E1D00DA824E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80B66291F3A9E1C00DA824E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80B66301F3A9E1C00DA824E;
+			remoteInfo = "Shape Warz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D80B66311F3A9E1C00DA824E /* Shape Warz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shape Warz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80B66341F3A9E1C00DA824E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D80B66361F3A9E1C00DA824E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D80B66391F3A9E1C00DA824E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D80B663C1F3A9E1C00DA824E /* Shape_Warz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shape_Warz.xcdatamodel; sourceTree = "<group>"; };
+		D80B663E1F3A9E1C00DA824E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80B66411F3A9E1C00DA824E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D80B66431F3A9E1C00DA824E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80B66481F3A9E1D00DA824E /* Shape WarzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shape WarzTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80B664C1F3A9E1D00DA824E /* Shape_WarzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape_WarzTests.swift; sourceTree = "<group>"; };
+		D80B664E1F3A9E1D00DA824E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80B66531F3A9E1D00DA824E /* Shape WarzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shape WarzUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80B66571F3A9E1D00DA824E /* Shape_WarzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape_WarzUITests.swift; sourceTree = "<group>"; };
+		D80B66591F3A9E1D00DA824E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80B662E1F3A9E1C00DA824E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80B66451F3A9E1D00DA824E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80B66501F3A9E1D00DA824E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D80B66281F3A9E1C00DA824E = {
+			isa = PBXGroup;
+			children = (
+				D80B66331F3A9E1C00DA824E /* Shape Warz */,
+				D80B664B1F3A9E1D00DA824E /* Shape WarzTests */,
+				D80B66561F3A9E1D00DA824E /* Shape WarzUITests */,
+				D80B66321F3A9E1C00DA824E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D80B66321F3A9E1C00DA824E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80B66311F3A9E1C00DA824E /* Shape Warz.app */,
+				D80B66481F3A9E1D00DA824E /* Shape WarzTests.xctest */,
+				D80B66531F3A9E1D00DA824E /* Shape WarzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80B66331F3A9E1C00DA824E /* Shape Warz */ = {
+			isa = PBXGroup;
+			children = (
+				D80B66341F3A9E1C00DA824E /* AppDelegate.swift */,
+				D80B66361F3A9E1C00DA824E /* ViewController.swift */,
+				D80B66381F3A9E1C00DA824E /* Main.storyboard */,
+				D80B663E1F3A9E1C00DA824E /* Assets.xcassets */,
+				D80B66401F3A9E1C00DA824E /* LaunchScreen.storyboard */,
+				D80B66431F3A9E1C00DA824E /* Info.plist */,
+				D80B663B1F3A9E1C00DA824E /* Shape_Warz.xcdatamodeld */,
+			);
+			path = "Shape Warz";
+			sourceTree = "<group>";
+		};
+		D80B664B1F3A9E1D00DA824E /* Shape WarzTests */ = {
+			isa = PBXGroup;
+			children = (
+				D80B664C1F3A9E1D00DA824E /* Shape_WarzTests.swift */,
+				D80B664E1F3A9E1D00DA824E /* Info.plist */,
+			);
+			path = "Shape WarzTests";
+			sourceTree = "<group>";
+		};
+		D80B66561F3A9E1D00DA824E /* Shape WarzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D80B66571F3A9E1D00DA824E /* Shape_WarzUITests.swift */,
+				D80B66591F3A9E1D00DA824E /* Info.plist */,
+			);
+			path = "Shape WarzUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80B66301F3A9E1C00DA824E /* Shape Warz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80B665C1F3A9E1D00DA824E /* Build configuration list for PBXNativeTarget "Shape Warz" */;
+			buildPhases = (
+				D80B662D1F3A9E1C00DA824E /* Sources */,
+				D80B662E1F3A9E1C00DA824E /* Frameworks */,
+				D80B662F1F3A9E1C00DA824E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shape Warz";
+			productName = "Shape Warz";
+			productReference = D80B66311F3A9E1C00DA824E /* Shape Warz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D80B66471F3A9E1D00DA824E /* Shape WarzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80B665F1F3A9E1D00DA824E /* Build configuration list for PBXNativeTarget "Shape WarzTests" */;
+			buildPhases = (
+				D80B66441F3A9E1D00DA824E /* Sources */,
+				D80B66451F3A9E1D00DA824E /* Frameworks */,
+				D80B66461F3A9E1D00DA824E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80B664A1F3A9E1D00DA824E /* PBXTargetDependency */,
+			);
+			name = "Shape WarzTests";
+			productName = "Shape WarzTests";
+			productReference = D80B66481F3A9E1D00DA824E /* Shape WarzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D80B66521F3A9E1D00DA824E /* Shape WarzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80B66621F3A9E1D00DA824E /* Build configuration list for PBXNativeTarget "Shape WarzUITests" */;
+			buildPhases = (
+				D80B664F1F3A9E1D00DA824E /* Sources */,
+				D80B66501F3A9E1D00DA824E /* Frameworks */,
+				D80B66511F3A9E1D00DA824E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80B66551F3A9E1D00DA824E /* PBXTargetDependency */,
+			);
+			name = "Shape WarzUITests";
+			productName = "Shape WarzUITests";
+			productReference = D80B66531F3A9E1D00DA824E /* Shape WarzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80B66291F3A9E1C00DA824E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = GC;
+				TargetAttributes = {
+					D80B66301F3A9E1C00DA824E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5J296HQ2S9;
+						ProvisioningStyle = Automatic;
+					};
+					D80B66471F3A9E1D00DA824E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5J296HQ2S9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D80B66301F3A9E1C00DA824E;
+					};
+					D80B66521F3A9E1D00DA824E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5J296HQ2S9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D80B66301F3A9E1C00DA824E;
+					};
+				};
+			};
+			buildConfigurationList = D80B662C1F3A9E1C00DA824E /* Build configuration list for PBXProject "Shape Warz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80B66281F3A9E1C00DA824E;
+			productRefGroup = D80B66321F3A9E1C00DA824E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80B66301F3A9E1C00DA824E /* Shape Warz */,
+				D80B66471F3A9E1D00DA824E /* Shape WarzTests */,
+				D80B66521F3A9E1D00DA824E /* Shape WarzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80B662F1F3A9E1C00DA824E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B66421F3A9E1C00DA824E /* LaunchScreen.storyboard in Resources */,
+				D80B663F1F3A9E1C00DA824E /* Assets.xcassets in Resources */,
+				D80B663A1F3A9E1C00DA824E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80B66461F3A9E1D00DA824E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80B66511F3A9E1D00DA824E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80B662D1F3A9E1C00DA824E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B66371F3A9E1C00DA824E /* ViewController.swift in Sources */,
+				D80B663D1F3A9E1C00DA824E /* Shape_Warz.xcdatamodeld in Sources */,
+				D80B66351F3A9E1C00DA824E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80B66441F3A9E1D00DA824E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B664D1F3A9E1D00DA824E /* Shape_WarzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80B664F1F3A9E1D00DA824E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B66581F3A9E1D00DA824E /* Shape_WarzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D80B664A1F3A9E1D00DA824E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80B66301F3A9E1C00DA824E /* Shape Warz */;
+			targetProxy = D80B66491F3A9E1D00DA824E /* PBXContainerItemProxy */;
+		};
+		D80B66551F3A9E1D00DA824E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80B66301F3A9E1C00DA824E /* Shape Warz */;
+			targetProxy = D80B66541F3A9E1D00DA824E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D80B66381F3A9E1C00DA824E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80B66391F3A9E1C00DA824E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D80B66401F3A9E1C00DA824E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80B66411F3A9E1C00DA824E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80B665A1F3A9E1D00DA824E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D80B665B1F3A9E1D00DA824E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80B665D1F3A9E1D00DA824E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5J296HQ2S9;
+				INFOPLIST_FILE = "Shape Warz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GC.Shape-Warz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D80B665E1F3A9E1D00DA824E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5J296HQ2S9;
+				INFOPLIST_FILE = "Shape Warz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GC.Shape-Warz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D80B66601F3A9E1D00DA824E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5J296HQ2S9;
+				INFOPLIST_FILE = "Shape WarzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GC.Shape-WarzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shape Warz.app/Shape Warz";
+			};
+			name = Debug;
+		};
+		D80B66611F3A9E1D00DA824E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5J296HQ2S9;
+				INFOPLIST_FILE = "Shape WarzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GC.Shape-WarzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shape Warz.app/Shape Warz";
+			};
+			name = Release;
+		};
+		D80B66631F3A9E1D00DA824E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5J296HQ2S9;
+				INFOPLIST_FILE = "Shape WarzUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GC.Shape-WarzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Shape Warz";
+			};
+			name = Debug;
+		};
+		D80B66641F3A9E1D00DA824E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5J296HQ2S9;
+				INFOPLIST_FILE = "Shape WarzUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GC.Shape-WarzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Shape Warz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80B662C1F3A9E1C00DA824E /* Build configuration list for PBXProject "Shape Warz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80B665A1F3A9E1D00DA824E /* Debug */,
+				D80B665B1F3A9E1D00DA824E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80B665C1F3A9E1D00DA824E /* Build configuration list for PBXNativeTarget "Shape Warz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80B665D1F3A9E1D00DA824E /* Debug */,
+				D80B665E1F3A9E1D00DA824E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D80B665F1F3A9E1D00DA824E /* Build configuration list for PBXNativeTarget "Shape WarzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80B66601F3A9E1D00DA824E /* Debug */,
+				D80B66611F3A9E1D00DA824E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D80B66621F3A9E1D00DA824E /* Build configuration list for PBXNativeTarget "Shape WarzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80B66631F3A9E1D00DA824E /* Debug */,
+				D80B66641F3A9E1D00DA824E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D80B663B1F3A9E1C00DA824E /* Shape_Warz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D80B663C1F3A9E1C00DA824E /* Shape_Warz.xcdatamodel */,
+			);
+			currentVersion = D80B663C1F3A9E1C00DA824E /* Shape_Warz.xcdatamodel */;
+			path = Shape_Warz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D80B66291F3A9E1C00DA824E /* Project object */;
+}
